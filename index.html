@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>My Internship Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <h1>Welcome to My Internship Project 🚀</h1>
+    <p class="lead">A simple static website hosted on Google Cloud Storage</p>
+  </header>
+
+  <main class="content">
+    <section>
+      <h2>About this project</h2>
+      <p>I built this static website and hosted it on Google Cloud Storage as part of my internship task.</p>
+      <ul>
+        <li>Frontend: HTML / CSS</li>
+        <li>Hosting: Google Cloud Storage (public bucket)</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Live demo</h2>
+      <p>Open the public URL you will get after deployment (paste in browser).</p>
+    </section>
+
+    <p class="small">Created by: <strong>Your Name</strong></p>
+    <p><a class="button" href="about.html">About</a></p>
+  </main>
+
+  <footer class="footer">© <span id="year"></span> Your Name</footer>
+
+  <script>
+    document.getElementById('year').innerText = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+/* style.css - simple clean styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  background: #f6f8fa;
+  color: #222;
+}
+.site-header {
+  background: white;
+  padding: 28px 20px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+.site-header h1 { color: #0b63d3; margin: 0 0 8px; }
+.lead { margin: 0; color: #555; }
+
+.content { max-width: 760px; margin: 36px auto; padding: 0 16px; background: white; border-radius: 8px; box-shadow: 0 6px 20px rgba(11,99,211,0.04); padding: 28px; }
+.content h2 { color: #0b63d3; margin-top: 0; }
+.small { color: #666; font-size: 14px; }
+
+.footer { text-align: center; margin: 32px 0; color: #777; }
+
+.button {
+  display:inline-block;
+  background:#0b63d3;color:white;padding:10px 16px;border-radius:6px;text-decoration:none;
+}
